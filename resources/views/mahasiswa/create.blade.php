@@ -1,5 +1,4 @@
-@extends('layout.header')
-@extends('layout.sidebar')
+@extends('layout.main')
 @section('title', 'Tambah Data Mahasiswa')
 
     
@@ -33,6 +32,5 @@
         
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-</div>
+</div>    
 @endsection
-@extends('layout/footer')

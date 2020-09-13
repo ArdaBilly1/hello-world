@@ -1,21 +1,20 @@
 {{-- @extends('layout.main') --}}
-@include('layout.header')
-@include('layout.sidebar')
+@extends('layout.main')
 @section('title', 'Utama')
 
-    
-<div class="content-wrapper">
-    <div class="content">
-        @section('container')
-            <div class="container">
-                <div class="row">
-                    <div class="col-10">
-                        <h1 class="mt-4">Heloo gays</h1>
+@section('container')
+    <div class="content-wrapper">
+        <div class="content">
+            @section('container')
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <h1 class="mt-4">Heloo gays</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
-        @endsection
+            @endsection
+        </div>
     </div>
-</div>
-
-@include('layout.footer')
+    
+@endsection

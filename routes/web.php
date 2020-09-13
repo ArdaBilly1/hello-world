@@ -20,6 +20,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('about');
 // });
 
+Route::get('/login', 'AuthController@index');
+Route::get('/registration', 'AuthController@registration');
+
+
 Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 
